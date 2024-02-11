@@ -152,7 +152,7 @@ function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1.2, ease: "easeOut" }}
             >
-              <NavLink to="/contact">              Contact</NavLink>
+              <NavLink to="/contact"> Contact</NavLink>
 
             </motion.li>
           </ul>
