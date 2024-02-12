@@ -7,6 +7,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import ProductSection from './pages/ProductSection'
 import Footer from './components/Footer'
+import NotFoundPage from './pages/NotFoundPage'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<AboutUs/>}/>
           <Route path='/product' element={<ProductSection/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="*" element={<NotFoundPage/>}/>
         </Routes>
         <Footer/>
     </>
