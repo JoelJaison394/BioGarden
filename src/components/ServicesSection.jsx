@@ -5,7 +5,7 @@ import ServiceCard from "./ServiceCard";
 
 const ServicesSection = ({ servicesData }) => {
   return (
-    <div className="w-full px-4 lg:px-8 flex flex-col justify-start items-center">
+    <div className="w-full  lg:px-8 flex flex-col justify-start items-center">
       <h2 className="text-3xl font-bold mb-8 text-center mt-10 lg:mt-16">
         What We Do!
       </h2>
